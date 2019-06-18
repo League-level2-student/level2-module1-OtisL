@@ -54,7 +54,7 @@ public class GuestBook implements ActionListener {
 			String s="";
 			for(int i=0; i<guests.size(); i++) {
 				String n = guests.get(i);
-				s+="Guest #"+i+": "+n+"\n";
+				s+="Guest #"+(i+1)+": "+n+"\n";
 			} 
 			if(s=="") {
 				JOptionPane.showMessageDialog(null, "Theres nothing in there!");
